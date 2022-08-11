@@ -1,4 +1,4 @@
-import { makeStyles } from "@mui/material";
+import { makeStyles } from "@mui/styles";
 
 export default makeStyles(() =>({
     root:{
@@ -14,6 +14,6 @@ export default makeStyles(() =>({
     },
     cardContent:{
         display:'flex',
-        justifyContent:'space between',
-    },
+        
+    }
 }))
