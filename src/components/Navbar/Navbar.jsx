@@ -12,12 +12,12 @@ const Navbar = () => {
       <AppBar position="fixed" className={classes.AppBar} color="inherit">
         <Toolbar>
           <Typography variant="h6" className={classes.tittle} color="inherit">
-            <img
+            {/* <img
               src={logo}
               alt="NIHE"
               height="25px"
               className={classes.image}
-            />
+            /> */}
             MY SNEAKERS
           </Typography>
           <div className={classes.grow} />
