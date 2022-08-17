@@ -2,7 +2,7 @@ import React from "react";
 import { AppBar, Toolbar, IconButton, Typography, Badge } from "@mui/material";
 import { ShoppingCart } from "@material-ui/icons";
 
-// import logo from "../../assets/djtable.jpg";
+import logo from "../../assets/djtable.jpg";
 import useStyles from "./styles";
 
 const Navbar = ({totalItems}) => {
@@ -12,12 +12,12 @@ const Navbar = ({totalItems}) => {
       <AppBar position="fixed" className={classes.AppBar} color="inherit">
         <Toolbar>
           <Typography variant="h6" className={classes.tittle} color="inherit">
-            {/* <img
+            {<img
               src={logo}
               alt="NIHE"
               height="25px"
               className={classes.image}
-            /> */}
+            />}
             MY SNEAKERS
           </Typography>
           <div className={classes.grow} />
